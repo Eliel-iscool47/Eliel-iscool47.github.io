@@ -1,12 +1,14 @@
+const pi = Math.pi()
 const main = document.getElementById('main');
-const cxt = canvas.getContext('2d');
-cxt.fillStyle = 'red';
+const ctx = canvas.getContext('2d');
+ctx.fillStyle = 'red';
 ctx.strokeStyle='red';
-cxt.fillRect(0,0,40,40);
-cxt.fillStyle='blue';
-cxt.fillRect(1326,728,40,40);
-cxt.beginPath();
-cxt.moveTo(40,40);
-cxt.lineTo(1326,728);
+ctx.fillRect(0,0,40,40);
+ctx.fillStyle='blue';
+ctx.fillRect(1326,728,40,40);
+ctx.beginPath();
+ctx.moveTo(40,40);
+ctx.lineTo(1326,728);
 ctx.lineWidth=3;
 ctx.stroke();
+c
