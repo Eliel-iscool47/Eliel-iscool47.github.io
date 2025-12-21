@@ -1,0 +1,8 @@
+const main = document.getElementById('main');
+const cxt = canvas.getContext('2d');
+cxt.fillStyle = 'red';
+cxt.fillRect(0,0,40,40);
+cxt.fillStyle='blue';
+cxt.fillRect(1326,728,40,40);
+cxt.beginPath();cxt.moveTo(40,40);
+cxt.moveTo(1326,728);
