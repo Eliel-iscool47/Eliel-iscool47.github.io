@@ -11,4 +11,6 @@ ctx.moveTo(40,40);
 ctx.lineTo(1326,728);
 ctx.lineWidth=3;
 ctx.stroke();
-c
+ctx.beginPath();
+ctx.arc(40,40,20,pi * 0.75,pi * 1.25,false)
+
