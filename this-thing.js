@@ -29,14 +29,13 @@ function drawPlayer(x,y,size,color) {
     
 cxt.font = '24px Arial'
 canvas.addEventListener('click',(event)=>{
-    console.log('yaaas queen');
     const{offsetX: x, offsetY: y} = event;
-    console.log(`Clicked at ${x}, ${y}`);
+    console.log(`Your location is: ${x}, ${y}`);
 });
 
 canvas.addEventListener('mousemove',(event)=>{
     const{offsetX: x, offsetY: y} = event;
-    cxt.clearRect(0,0,canvas.width,canvas.height);
     cxt.fillStyle = 'rgba(0,120,255,0.7)';
     cxt.arc(x, y,50,0,pi*2,true)
+
 });
