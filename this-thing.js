@@ -1,6 +1,6 @@
 //setup canvas
-const canvas = document.getElementById('canvas');
-const cxt = canvas.getContext('2d');
+const canvas = document.getElementById("canvas");
+const cxt = canvas.getContext("2d");
 //things
 function clear(){
     cxt.clearRect(0,0,canvas.width,canvas,height);
