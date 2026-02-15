@@ -1,5 +1,77 @@
 body {
-display: flex;
-margin: 0;
-padding: 0;
+    font-family: Consolas, sans-serif;
+    background-color: #000000;
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    background-color: #929292;
+    margin: 20px auto;
+    min-width: 100vw;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+#header {
+    background-color: #0400ff;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+#content {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px hsla(210, 100%, 30%, 0.6);
+}
+
+#footer {
+    position: fixed;
+    top: 80vh;
+    width: 100%;
+    background-color: #0400ff;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+
+#github-button {
+    background-color: #333333;
+    font-family: Consolas, sans-serif;
+    color: #ffffff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#github-button:hover {
+    background-color: hsl(220, 100%, 35%);
+}
+
+#github-button:active {
+    background-color: #ffffff;
+}
+
+#games-button {
+    background-color: #333333;
+    font-family: Consolas, sans-serif;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+#games-button:hover {
+    background-color: hsl(220, 100%, 35%);
+}
+
+#games-button:active {
+    background-color: #ffffff;
 }
